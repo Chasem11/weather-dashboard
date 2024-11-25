@@ -1,0 +1,42 @@
+
+.dashboard-container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    width: 100vw; 
+    margin: 0; 
+    text-align: center; 
+  }
+  
+  .dashboard-container input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+  }
+  
+  .dashboard-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: red;
+  }
+
+  .weather-info {
+    margin-top: 20px;
+  }
+  
+  .weather-info h2 {
+    font-size: 24px;
+  }
+  
+  .weather-info p {
+    font-size: 18px;
+  }
+  
